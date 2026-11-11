@@ -31,9 +31,11 @@ SPOTIFY_REDIRECT_URI=http://127.0.0.1:8888/callback
 PLAYLIST_NAME=TODO
 ```
 
-`PLAYLIST_NAME` to the exact name of the playlist being edited when you invoke the app (default: `TODO`).
+`PLAYLIST_NAME` should be the exact name of the playlist being edited when you invoke the app (default: `TODO`).
 
 ## 3. Install python dependencies
+There's a script for this. Or just install the requirements in `requirements.txt`.
+
 ```bash
 ./install.sh
 ```
